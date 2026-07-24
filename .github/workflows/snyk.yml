@@ -20,6 +20,6 @@ jobs:
 
       - uses: snyk/actions/python@master
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_TOKEN: ${{ secrets.SNYK }}
         with:
           command: test
